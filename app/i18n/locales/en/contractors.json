@@ -1,0 +1,26 @@
+{
+    "name_required": "Name is required",
+    "address_required": "Address is required",
+    "age_required": "Age is required",
+    "national_number_required": "National number is required",
+    "commercial_register_required": "Commercial register is required",
+    "tax_card_required": "Tax card is required",
+    "account_number_required": "Account number is required",
+    "payment_method_required": "Payment method is required",
+    "contractor_added_successfully": "Contractor added successfully",
+    "error_title": "Error",
+    "contractor_add_failed": "Failed to add contractor",
+    "name_label": "Name",
+    "address_label": "Address",
+    "age_label": "Age",
+    "national_number_label": "National number",
+    "commercial_register_label": "Commercial register",
+    "tax_card_label": "Tax card",
+    "account_number_label": "Account number",
+    "additional_information_label": "Additional information",
+    "payment_method_label": "Payment method",
+    "add_contractor": "Add contractor",
+    "adding": "Adding",
+    "bank_transfer": "Bank transfer"
+  }
+  

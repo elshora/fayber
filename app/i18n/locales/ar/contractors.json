@@ -1,0 +1,26 @@
+{
+    "name_required": "الاسم مطلوب",
+    "address_required": "العنوان مطلوب",
+    "age_required": "العمر مطلوب",
+    "national_number_required": "الرقم القومي مطلوب",
+    "commercial_register_required": "السجل التجاري مطلوب",
+    "tax_card_required": "البطاقة الضريبية مطلوبة",
+    "account_number_required": "رقم الحساب مطلوب",
+    "payment_method_required": "طريقة الدفع مطلوبة",
+    "contractor_added_successfully": "تمت إضافة المقاول بنجاح",
+    "error_title": "خطأ",
+    "contractor_add_failed": "فشل في إضافة المقاول",
+    "name_label": "الاسم",
+    "address_label": "العنوان",
+    "age_label": "العمر",
+    "national_number_label": "الرقم القومي",
+    "commercial_register_label": "السجل التجاري",
+    "tax_card_label": "البطاقة الضريبية",
+    "account_number_label": "رقم الحساب",
+    "additional_information_label": "معلومات إضافية",
+    "payment_method_label": "طريقة الدفع",
+    "add_contractor": "إضافة مقاول",
+    "adding": "يتم الإضافة",
+    "bank_transfer": "تحويل بنكي"
+  }
+  

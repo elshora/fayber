@@ -1,0 +1,58 @@
+.order-table .ag-root-wrapper {
+    border: none;
+  }
+  
+  .order-table .ag-header, 
+  .order-table .ag-row {
+    border: none;
+  }
+  .order-table .ag-header {
+    background-color: transparent !important;
+  }
+  .order-table .ag-cell {
+    border: none;
+  }
+  .order-table .ag-header-cell {
+    background-color: transparent !important;
+    color: #525252;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+.order-table .ag-theme-alpine .ag-header {
+    background-color: transparent !important;
+}
+.ag-theme-alpine .ag-body-viewport {
+    max-height: fit-content;
+}
+.order-table .ag-center-cols-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.order-table .ag-header-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.order-table .ag-paging-panel {
+  justify-content: center;
+}
+.order-table {
+  width: 100%;
+  display: block; /* or flex */
+}
+.order-table .ag-body-viewport {
+  max-height: 400px; /* or any max height you want */
+  overflow-y: auto;
+}
+.ag-theme-alpine .ag-layout-auto-height .ag-center-cols-container {
+  min-height: auto !important;
+  /* padding-bottom: 50px !important; */
+}
+.ag-theme-alpine .ag-layout-auto-height .ag-center-cols-viewport {
+  min-height: auto !important;
+  padding-bottom: 20px !important;
+  height: auto !important;
+}
+.ag-root.ag-layout-auto-height {
+  gap: 10px;
+}

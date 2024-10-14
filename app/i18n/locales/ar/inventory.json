@@ -1,0 +1,22 @@
+{
+  "inventory_name_min_length": "يجب أن يكون اسم المخزون مكونًا من حرفين على الأقل.",
+  "select_project_manager": "يرجى اختيار مدير المشروع.",
+  "location_min_length": "يجب أن يكون الموقع مكونًا من حرفين على الأقل.",
+  "phone_number_invalid": "يجب أن يتكون رقم الهاتف من 11 رقمًا بالضبط.",
+  "inventory_updated_successfully": "تم تحديث المخزون بنجاح.",
+  "inventory_added_successfully": "تم إضافة المخزون بنجاح.",
+  "error_title": "خطأ",
+  "inventory_update_failed": "فشل في تحديث المخزون.",
+  "inventory_add_failed": "فشل في إضافة المخزون.",
+  "inventory_name_label": "اسم المخزون",
+  "inventory_name_placeholder": "أدخل اسم المخزون الخاص بك",
+  "location_label": "الموقع",
+  "location_placeholder": "أدخل موقع المخزون",
+  "phone_number_label": "رقم الهاتف",
+  "phone_number_placeholder": "أدخل رقم هاتف المخزون",
+  "store_manager_label": "مدير المخزن",
+  "store_manager_placeholder": "اختر مدير المخزن",
+  "loading": "جاري التحميل...",
+  "update_inventory": "تحديث المخزون",
+  "add_inventory": "إضافة المخزون"
+}

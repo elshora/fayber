@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --hover: 212, 74%, 40%, 1;
+    --link:  197, 100%, 34%, 1;
+    --success:  169, 100%, 37%, 1
+
+
+    --card: 225, 11%, 93%, 1;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 212, 74%, 27%, 1;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 225, 15%, 69%, 1;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0, 61%, 55%, 1;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 225, 11%, 93%, 1;
+    --ring: 222.2 84% 4.9%;
+    --user-card: 225 11% 93%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --hover: 212, 74%, 40%, 1;
+    --link: 197, 100%, 34%, 1
+    
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+.header-shadow {
+  @apply shadow-md;
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+.ag-theme-alpine .ag-body-viewport {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.ag-theme-alpine .ag-body-horizontal-scroll-viewport {
+  overflow-y: hidden;
+}
+
+.ag-theme-alpine .ag-header {
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.ag-theme-alpine .ag-header-cell {
+  background-color: hsl(var(--primary));
+  color:hsl(var(--primary-foreground));
+}
+
+/* Custom scrollbar */
+.ag-theme-alpine .ag-body-viewport::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ag-theme-alpine .ag-body-viewport::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary));
+  border-radius: 15px;
+}
+
+.ag-theme-alpine .ag-body-viewport::-webkit-scrollbar-track {
+  background: hsl(var(--primary-foreground));
+}
+
+.ag-theme-alpine {
+  border-radius: 15px;
+  overflow: hidden; 
+  box-shadow: 0 4px 8px (0, 0, 0, 0.1); 
+}
+
+.ag-theme-alpine .ag-row{
+  background-color: hsl(var(--popover));
+  color: hsl(var(--popover-foreground));
+}
+
+.edit-btn, .delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+  .ordersTable {
+    margin: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pageButton {
+    background: #fff;
+    color: #333;
+    padding: 6px 10px;
+    /* margin: 0 9px; */
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+.pageButton:hover {
+    background: #f0f0f0;
+}
+
+.pageButton.active {
+    background: #007bff;
+    color: #fff;
+}
+
+.pageButton.disabled {
+    color: #aaa;
+    cursor: not-allowed;
+}

@@ -1,0 +1,22 @@
+{
+  "inventory_name_min_length": "Inventory name must be at least 2 characters.",
+  "select_project_manager": "Please select a Project Manager.",
+  "location_min_length": "Location must be at least 2 characters.",
+  "phone_number_invalid": "Phone Number must be exactly 11 digits.",
+  "inventory_updated_successfully": "Inventory updated successfully.",
+  "inventory_added_successfully": "Inventory added successfully.",
+  "error_title": "Error",
+  "inventory_update_failed": "Failed to update inventory.",
+  "inventory_add_failed": "Failed to add inventory.",
+  "inventory_name_label": "Inventory Name",
+  "inventory_name_placeholder": "Enter Your Inventory Name",
+  "location_label": "Location",
+  "location_placeholder": "Enter Inventory Location",
+  "phone_number_label": "Phone Number",
+  "phone_number_placeholder": "Enter Inventory Phone Number",
+  "store_manager_label": "Store Manager",
+  "store_manager_placeholder": "Select the Store Manager",
+  "loading": "Loading...",
+  "update_inventory": "Update Inventory",
+  "add_inventory": "Add Inventory"
+}
